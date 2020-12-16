@@ -40,3 +40,6 @@ string error formySQL default string length
 masterpage/Admin page
 using Bootstrap
 -----------------------Version :1.00.003(minor)----------------------------
+debugging/customizarion of admin panel
+-----------------------Version :1.00.003(minor)----------------------------
+Setting up fontawesome (icons) and adminlte 3 (bootstrap admin dashboard)
