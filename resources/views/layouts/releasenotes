@@ -1,0 +1,42 @@
+Version:1.00.000
+          |   |
+       major minor
+
+
+
+-------------------------Version :1.00.001(minor)-------------------------
+
+project is uploaded to the gitHUB with all the envirnment setup properly
+setup envirnment.
+wamp(local testing).
+nodejs(npm) compiler.
+composer(Laravel).
+Vue(CLI).
+chrome browser(with all the necessary dev toools)
+Visualcode(editor).
+Microsoft xd (design) svgs.
+0.0.0webhost for remote testing.
+
+
+
+
+1)npm installation 
+$npm install
+$npm run watch(while working)
+that is basically a compiler that compiles all the project files
+on the run ,,,,
+2)Bootstrap (html scss) Design. 
+3)Laravel (Backend).
+$composer create-project laravel/laravel KheRi
+4)Vue (Frontend).
+5)MySQL(Database).
+connecting the mySQL database to our project for localhost testing 
+using wamp
+name:KheRidb
+-------------------------Version :1.00.002(minor)-------------------------        
+Enabling the laravel authentication
+migrating our database
+string error formySQL default string length
+masterpage/Admin page
+using Bootstrap
+-----------------------Version :1.00.003(minor)----------------------------
