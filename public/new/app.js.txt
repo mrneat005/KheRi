@@ -12,9 +12,9 @@ window.Vue = require('vue');
 import VueRouter from 'vue-router'
 Vue.use(VueRouter)
 let routes = [
-    { path: '/profile', component: require('./components/Profile.vue') },
-    { path: '/dashboard', component: require('./components/Dashboard.vue') },
-    { path: '/users', component: require('./components/Users.vue') },
+    { path: '/profile', component: require('./components/profile1.vue') },
+    { path: '/dashboard', component: require('./components/dashboard1.vue') },
+    { path: '/users', component: require('./components/users1.vue') },
   ]
   const router = new VueRouter({
     routes // short for `routes: routes`
@@ -29,9 +29,9 @@ let routes = [
  */
 
 Vue.component('example', require('./components/Example.vue'));
-Vue.component('Profile', require('./components/Profile.vue'));
-Vue.component('Dashboard', require('./components/Dashboard.vue'));
-Vue.component('Users', require('./components/Users.vue'));
+Vue.component('Profile', require('./components/profile1.vue'));
+Vue.component('Dashboard', require('./components/dashboard1.vue'));
+Vue.component('Users', require('./components/users1.vue'));
 
 
 const app = new Vue({

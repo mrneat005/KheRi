@@ -16,3 +16,47 @@ $fa-font-path:        "../webfonts";
 //@import "node_modules/admin-lte/dist/css/adminlte.css";
 //@import "node_modules/admin-lte/dist/css/adminlte.css";
 //@fortawesome/fontawesome-free
+
+.navbar-laravel {
+   background-color: #fff;
+   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.04);
+ }
+ .router-link-exact-active{
+    // background-color: green!important;
+   //  color:#fff !important;
+ }
+.router-link-active{
+   background-color: rgb(22, 134, 209)!important;
+   color:#fff !important;
+
+ }
+ 
+ 
+ @media print {
+     .nav.nav-tabs li:not(.active){
+         display: none;
+     }
+     .invoice{
+        padding: 10px 20px;
+     }
+ 
+     .invoice{
+       background-position: center center;
+       background-repeat: no-repeat;
+ 
+    }
+    .table-responsive table{
+       background-color: green !important;
+       color :indigo !important;
+    }
+    .router-link-exact-active{
+       background-color: green !important;
+       color:white;
+    }
+ 
+ }
+ 
+ @page {
+     margin: 0;
+ }
+ 
