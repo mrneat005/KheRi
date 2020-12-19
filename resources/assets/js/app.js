@@ -8,8 +8,21 @@
 require('./bootstrap');
 
 window.Vue = require('vue');
+import { Form, HasError, AlertError } from 'vform'
+window.Form = Form;
+Vue.component(HasError.name, HasError)
+Vue.component(AlertError.name, AlertError)
 //router
 import VueRouter from 'vue-router'
+
+//components
+Vue.component('example', require('./components/Example.vue'))
+Vue.component('Profile', require('./components/Profile.vue'))
+Vue.component('Dashboard', require('./components/Dashboard.vue'))
+Vue.component('Users', require('./components/Users.vue'))
+Vue.component('Form', require('./components/Form.vue'))
+
+
 Vue.use(VueRouter)
 let routes = [
     { path: '/profile', component: require('./components/Profile.vue') },
@@ -28,10 +41,7 @@ let routes = [
  * or customize the JavaScript scaffolding to fit your unique needs.
  */
 
-Vue.component('example', require('./components/Example.vue'));
-Vue.component('Profile', require('./components/Profile.vue'));
-Vue.component('Dashboard', require('./components/Dashboard.vue'));
-Vue.component('Users', require('./components/Users.vue'));
+
 
 
 const app = new Vue({

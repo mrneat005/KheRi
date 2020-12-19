@@ -83,7 +83,7 @@ scratch. This page gets rid of all links and provides the needed markup only.
                         </li>
                         <li class="nav-item has-treeview menu-open">
                             <a href="#" class="nav-link">
-                                <i class="nav-icon fas fa-cog" style="color: goldenrod"></i>
+                                <i class="nav-icon fas fa-cog indigo"></i>
                                 <p>
                                     Management
                                     <i class="right fas fa-angle-left "></i>
